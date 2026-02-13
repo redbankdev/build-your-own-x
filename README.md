@@ -27,6 +27,7 @@ It's a great way to learn.
 * [Programming Language](#build-your-own-programming-language)
 * [Regex Engine](#build-your-own-regex-engine)
 * [Search Engine](#build-your-own-search-engine)
+* [Research and Resources](#research-and-resources)
 * [Shell](#build-your-own-shell)
 * [Template Engine](#build-your-own-template-engine)
 * [Text Editor](#build-your-own-text-editor)
@@ -407,6 +408,31 @@ It's a great way to learn.
 * [**Python**: _Building a basic HTTP Server from scratch in Python_](http://joaoventura.net/blog/2017/python-webserver/)
 * [**Python**: _Implementing a RESTful Web API with Python & Flask_](http://blog.luisrei.com/articles/flaskrest.html)
 * [**Ruby**: _Building a simple websockets server from scratch in Ruby_](http://blog.honeybadger.io/building-a-simple-websockets-server-from-scratch-in-ruby/)
+
+
+#### Research and Resources
+
+Responsible security research protects users, companies, and critical infrastructure when it is done with clear authorization and ethical boundaries.
+
+* [**Guide**: _Open Source Security Testing Methodology Manual (OSSTMM)_](https://www.isecom.org/OSSTMM.3.pdf)
+* [**Guide**: _OWASP Web Security Testing Guide_](https://owasp.org/www-project-web-security-testing-guide/)
+* [**Guide**: _NIST Secure Software Development Framework (SSDF)_](https://csrc.nist.gov/Projects/ssdf)
+* [**Practice**: _PortSwigger Web Security Academy_](https://portswigger.net/web-security)
+* [**Practice**: _picoCTF_](https://picoctf.org/)
+* [**Bug Bounty**: _HackerOne Hacktivity and Program Directory_](https://hackerone.com/hacktivity)
+* [**Bug Bounty**: _Bugcrowd Program Directory_](https://bugcrowd.com/programs)
+* [**Bug Bounty**: _Intigriti Public Programs_](https://www.intigriti.com/programs)
+* [**Workflow**: _OWASP Amass (asset discovery)_](https://github.com/owasp-amass/amass)
+* [**Workflow**: _Nuclei (template-based validation)_](https://github.com/projectdiscovery/nuclei)
+* [**Workflow**: _ReconFTW (authorized reconnaissance automation)_](https://github.com/six2dez/reconftw)
+
+**Bug bounty without guesswork (legal + repeatable checklist):**
+
+1. Confirm written authorization, scope, and out-of-scope assets before testing.
+2. Build an asset inventory (domains, APIs, mobile endpoints, cloud buckets) from program docs and passive sources.
+3. Triage findings by exploitability and business impact; avoid noisy low-value reports.
+4. Reproduce with minimal steps and clean evidence (request/response, logs, screenshots).
+5. Propose practical remediations and verify fixes after patch deployment.
 
 #### Uncategorized
 
